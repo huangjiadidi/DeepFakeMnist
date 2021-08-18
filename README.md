@@ -19,7 +19,7 @@ In order to select high-quality animation video, all generated videos have passe
 # Dataset Evaluation
 
 *Accuracy under different network and compression level*
-![alt text](https://github.com/huangjiadidi/DeepFakeMinst/blob/main/readme_src/main_result.png)
+
 
 |                     | Resnet50  | Resnet101 | Resnet152 | XceptionNet | MesoNet |
 | :-----------------: |:---------:| :--------:| :--------:| :----------:| :------:|
