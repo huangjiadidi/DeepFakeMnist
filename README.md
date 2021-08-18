@@ -16,6 +16,13 @@ The animation videos is animated with 10 different actions, including: Blink, Op
 
 In order to select high-quality animation video, all generated videos have passed and able to proof the recent liveness detectors in the markets. We select the two detectors from [Baidu](https://ai.baidu.com/tech/face/faceliveness) and [Tianyan](https://www.tianyandata.cn/) to help us to filter out the high-quailty results.
 
+# Video Generation Pipeline
+![alt text](https://github.com/huangjiadidi/DeepFakeMnist/blob/main/readme_src/dataset_pipeline.png)
+
+# Animation Video Detection Pipeline
+![alt text](https://github.com/huangjiadidi/DeepFakeMnist/blob/main/readme_src/dataset_detection_pipeline.png)
+
+
 # Dataset Evaluation - action impact
 
 **Accuracy under different network and compression level**
