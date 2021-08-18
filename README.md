@@ -32,11 +32,13 @@ notes: **raw** means original videos, light compression means the videos are com
 *Accuracy on detecting animation videos under different actions*
 
 **1. The detection accuracy for the Resnet50 modelstrained with one specific actions videos. **
+
 ![alt text](https://github.com/huangjiadidi/DeepFakeMnist/blob/main/readme_src/each_action_train_only.png)
 
 The result indicates that using large movement action videos to train classifiers couldlead to better performance for detecting new actions’ videos.The actions that only include small changes, e.g., smilingand blinking, cannot provide sufficient information for thenetworks to adapt to unseen videos.
 
 **2. The detection accuracy for each action under differ-ent video quality.**
+
 ![alt text](https://github.com/huangjiadidi/DeepFakeMnist/blob/main/readme_src/each_action_merge.png)
 We observe that some hard-to-detect actions, e.g., right and left slope, could providemore generalization if we only use those actions’ videos fortraining. On the contrary, the models trained with the videosof easy-to-detect actions, e.g., smiling and blinking, showingpoorer performances for adapting unseen actions.
 
