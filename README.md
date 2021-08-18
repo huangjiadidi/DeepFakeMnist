@@ -40,7 +40,27 @@ The result indicates that using large movement action videos to train classifier
 *2. The detection accuracy for each action under differ-ent video quality.*
 
 ![alt text](https://github.com/huangjiadidi/DeepFakeMnist/blob/main/readme_src/each_action_merge.png)
+
 We observe that some hard-to-detect actions, e.g., right and left slope, could providemore generalization if we only use those actions’ videos fortraining. On the contrary, the models trained with the videosof easy-to-detect actions, e.g., smiling and blinking, showingpoorer performances for adapting unseen actions.
+
+**The impact of compression rate**
+We notice that the video quality could significantly affect the detection performance. The results below are the models trained with one video quailty and tested in other video quality. It indicates that training with single video quality cannot handle the data under other video quailty.
+
+|          | Raw->LC   | Raw->HC | LC->Raw | LC->HC | HC->Raw | HC->LC |
+| :------: |:---------:| :------:| :------:| :-----:| :------:| :-----:|
+| Resnet50 | 85.52%    | 71.3%   | 95.16%  | 82.98% | 59%     | 61.02% |
+| Resnet152| 79.23%    | 68.12%  | 82.33%  | 73.60% | 76.72%  | 76.69% |
+
+
+We explored a new training strategy that combine videos in different compression ratio to train our final model.
+
+|                     | Resnet50  | Resnet152 | 
+| :-----------------: |:---------:| :--------:| 
+| raw                 | 93.57%    | 95.78%    | 
+| light compression   | 90.69%    | 92.11%    | 
+| heavy compression   | 85.56%    | 88.32%    |
+
+The results show that the mixed quailty training could allow a single model to handle videos under different compression ratio.
 
 
 
