@@ -16,7 +16,7 @@ The animation videos is animated with 10 different actions, including: Blink, Op
 
 In order to select high-quality animation video, all generated videos have passed and able to proof the recent liveness detectors in the markets. We select the two detectors from [Baidu](https://ai.baidu.com/tech/face/faceliveness) and [Tianyan](https://www.tianyandata.cn/) to help us to filter out the high-quailty results.
 
-# Dataset Evaluation
+# Dataset Evaluation - action impact
 
 **Accuracy under different network and compression level**
 
@@ -43,7 +43,7 @@ The result indicates that using large movement action videos to train classifier
 
 We observe that some hard-to-detect actions, e.g., right and left slope, could providemore generalization if we only use those actions’ videos fortraining. On the contrary, the models trained with the videosof easy-to-detect actions, e.g., smiling and blinking, showingpoorer performances for adapting unseen actions.
 
-**The impact of compression rate**
+# Dataset Evaluation - video quailty impact
 We notice that the video quality could significantly affect the detection performance. The results below are the models trained with one video quailty and tested in other video quality. It indicates that training with single video quality cannot handle the data under other video quailty.
 
 |          | Raw->LC   | Raw->HC | LC->Raw | LC->HC | HC->Raw | HC->LC |
