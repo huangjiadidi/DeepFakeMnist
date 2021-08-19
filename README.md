@@ -1,6 +1,8 @@
 # DeepFakeMnist+
 
-This page contain the download link for our proposed data DeepFake Mnist+, [download link](https://1fichier.com/?xva635m3whdgcae2k81q).
+This page contain the download link for our proposed data [DeepFake Mnist+](https://arxiv.org/abs/2108.07949), [download link](https://1fichier.com/?xva635m3whdgcae2k81q).
+
+We will update code and trained models for re-production later.
 
 # Dataset Introdution
 
@@ -70,8 +72,15 @@ We explored a new training strategy that combine videos in different compression
 The results show that the mixed quailty training could allow a single model to handle videos under different compression ratio.
 
 
-
-
+**Citation**
+@misc{huang2021deepfake,
+      title={DeepFake MNIST+: A DeepFake Facial Animation Dataset}, 
+      author={Jiajun Huang and Xueyu Wang and Bo Du and Pei Du and Chang Xu},
+      year={2021},
+      eprint={2108.07949},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 
 
 
