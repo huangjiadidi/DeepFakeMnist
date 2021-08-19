@@ -73,6 +73,7 @@ The results show that the mixed quailty training could allow a single model to h
 
 
 **Citation**
+
 @misc{huang2021deepfake,
       title={DeepFake MNIST+: A DeepFake Facial Animation Dataset}, 
       author={Jiajun Huang and Xueyu Wang and Bo Du and Pei Du and Chang Xu},
