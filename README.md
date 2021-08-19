@@ -72,7 +72,7 @@ We explored a new training strategy that combine videos in different compression
 The results show that the mixed quailty training could allow a single model to handle videos under different compression ratio.
 
 
-**Citation**
+# Citation
 
 @misc{huang2021deepfake,
       title={DeepFake MNIST+: A DeepFake Facial Animation Dataset}, 
