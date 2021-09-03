@@ -1,6 +1,6 @@
 # DeepFakeMnist+
 
-This page contain the download link for our proposed data [DeepFake Mnist+](https://arxiv.org/abs/2108.07949), [download link](https://1fichier.com/?xva635m3whdgcae2k81q).
+This page contain the download link for our proposed data [DeepFake Mnist+](https://arxiv.org/abs/2108.07949), [download link](https://1fichier.com/?do5lezggwcnpg49m28wh).
 
 The paper has been accepted by ICCV21 workshop: AIM2021 (Advances in Image Manipulation workshop).
 
